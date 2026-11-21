@@ -1,0 +1,12 @@
+Build Command:
+pyinstaller --clean --onefile --collect-all selenium --add-binary "chromedriver.exe;." e-mar_backup.py
+
+
+Login Information:
+Hastings
+Caremeds Username: cp-38243-autobackup
+Caremeds Password: Temp1234@
+
+Deal
+Caremeds Username: cp-35171-emarbackup
+Caremeds Password: Temp1234@
