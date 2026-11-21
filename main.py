@@ -18,11 +18,11 @@ while True:
         print("Starting e-MAR backup.")
         standard_operation_delay = 1
         #download_delay = 1800
-        download_delay = 900
+        download_delay = 1000
         download_dir = "\Downloads"
         options = Options()
         options.add_argument("--no-sandbox")
-        #options.add_argument("--headless=new")
+        options.add_argument("--headless=new")
         options.add_experimental_option('prefs', {
             "download.default_directory": download_dir,
             "download.prompt_for_download": False,
@@ -45,8 +45,8 @@ while True:
 
         time.sleep(standard_operation_delay)
 
-        gdpr_cancel_element = driver.find_element(By.CSS_SELECTOR, '[data-bb-handler="cancel"]')
-        gdpr_cancel_element.click()
+        #gdpr_cancel_element = driver.find_element(By.CSS_SELECTOR, '[data-bb-handler="cancel"]')
+        #gdpr_cancel_element.click()
 
         time.sleep(standard_operation_delay)
 
