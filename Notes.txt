@@ -1,5 +1,5 @@
 Build Command:
-pyinstaller --clean --onefile --collect-all selenium --add-binary "chromedriver.exe;." e-mar_backup.py
+pyinstaller --clean --onefile --collect-all selenium --add-binary "chromedriver.exe;." main.py
 
 
 Login Information:
